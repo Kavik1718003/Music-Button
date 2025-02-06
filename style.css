@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.button-container {
+	background-color: black;
+	color:gray;
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+	
+}
+
+.row {
+    display: flex;
+	padding:20px;
+	align-items: center;
+    gap: 60px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+}
+
+
+.red {
+    background-color: red;
+    color: black;
+    border: 3px solid brown;
+}
+
+.orange {
+    background-color: orange;
+    color: red;
+    border: 3px solid gray;
+}
+
+.purple {
+    background-color: purple;
+    color: white;
+    border: 3px solid white;
+}
+
+.violet {
+    background-color: violet;
+    color: white;
+    border: 3px solid white;
+    border-style: dashed;
+}
+
+.green {
+    background-color: green;
+    color: black;
+    border: 3px solid white;
+    border-style: dotted;
+}
+
+.dark-green {
+    background-color: darkgreen;
+    color: white;
+    border: 3px solid white;
+    border-style: dashed;
+}
+
+.yellow {
+    background-color: yellow;
+    color: red;
+    border: 3px solid red;
+}
+
+.white {
+    background-color: white;
+    color: red;
+    border-right: 3px solid purple;
+    border-bottom: 3px solid purple;
+}
+
+.pink {
+    background-color: pink;
+    color: black;
+    border-right: 3px solid purple;
+    border-bottom: 3px solid purple;
+}
+
+.light-pink {
+    background-color: lightpink;
+    color: black;
+    border: 3px solid black;
+    border-bottom-style: dotted;
+    border-top-style: dotted;
+}
+
+.grey {
+    background-color: grey;
+    color: black;
+    border: 3px solid black;
+    border-right-style: dotted;
+    border-left-style: dotted;
+}
+
+.blue {
+    background-color: blue;
+    color: gray;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    border-top-style: dotted;
+}
+
+
+.button-radius1 { border-radius: 0px; }
+.button-radius2 { border-radius: 25px; }
+.button-radius3 { border-radius: 0px; }
+.button-radius4 { border-radius: 25px; }
+.button-radius5 { border-radius: 10px; }
+.button-radius6 { border-radius: 10px; }
+.button-radius7 { border-radius: 10px; }
+.button-radius8 { border-top-left-radius: 20px; border-bottom-right-radius: 20px; }
+.button-radius9 { border-bottom-left-radius: 20px; border-top-right-radius: 20px; }
+.button-radius10 { border-bottom-left-radius: 20px; border-top-right-radius: 20px; }
+.button-radius11 { border-radius: 0px; }
+.button-radius12 { border-top-left-radius: 20px; border-bottom-right-radius: 20px; }
